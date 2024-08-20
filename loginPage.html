@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <style>
+        body {
+
+            background-color: azure;
+
+        }
+
+        .main {
+            margin: auto;
+            margin-top: 10%;
+
+            width: 300px;
+            padding: 20px;
+            background-color: rgba(255, 101, 71, 0.2);
+            text-align: center;
+            border-radius: 10%;
+            font-size: 17px;
+            height: 300px;
+
+        }
+
+        h2 {
+            color: rgba(4, 17, 46, 0.536);
+        }
+
+        #submit {
+            width: 290px;
+            height: 30px;
+            background-color: rgba(248, 250, 244, 1);
+            border: none;
+            border-radius: 1.5rem;
+            color: rgb(0, 0, 0);
+            font-size: 15px;
+            cursor: pointer;
+            transition: 0.5s;
+            margin-top: 50px;
+
+        }
+
+        #submit:hover {
+            background-color: rgb(216, 173, 214);
+            color: aliceblue;
+        }
+
+        .role:hover{
+            background-color: rgb(216, 173, 214);
+            color: aliceblue;
+        }
+
+        .input_box {
+
+            background-color: rgba(255, 101, 71, 0);
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+        }
+
+        label {
+            color: #333333;
+        }
+        .userName
+        {
+            padding-top: 10px;
+        }
+        .role
+        {
+            width: 70px;
+            height: 30px;
+            background-color: rgba(248, 250, 244, 1);
+            border: none;
+            border-radius: 1.5rem;
+            color: rgb(0, 0, 0);
+            font-size: 15px;
+            cursor: pointer;
+            transition: 0.5s;
+            margin-left: 10px
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div><button class="role">Student</button> <button class="role">Admit</button></div>
+
+        <h2>Enter your details</h2>
+        <div class="userName">
+            <label class=>User Name:</label>
+            <input type="text" id="name" class="input_box"><br><br>
+        </div>
+
+        <div class="password">
+            <label>Password:</label>
+            <input type="text" class="input_box"><br><br>
+        </div>
+
+
+        <button id = "submit" onclick="window.location.href='homePage.html';">Submit</button>
+
+    </div>
+
+</body>
+
+</html>

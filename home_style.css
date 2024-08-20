@@ -1,0 +1,209 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: azure;
+    
+}
+
+#name {
+    font-weight: bold;
+    font-size: large;
+    padding-top: 0;
+    margin-top: 30px;
+    margin-bottom: 0;
+
+}
+
+#email {
+    padding: 0;
+    margin-top: 5px;
+    font-size: 14px;
+    color: rgb(55, 57, 58);
+    font-weight: 500;
+}
+
+#department {
+    color: rgb(55, 57, 58);
+    font-weight: 500;
+}
+
+.subject
+{
+    color: rgb(55, 57, 58);
+    font-weight: 500;
+}
+
+.section1 {
+    display: flex;
+    /* border: 1px solid; */
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 15px;
+
+    background-color: aquamarine;
+    
+    
+
+
+}
+
+/* .section1>div{
+    border: 1px solid;
+} */
+
+.section2 {
+    /* border: 1px solid; */
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(226, 244, 202);
+    padding: 15px;
+
+}
+
+
+
+.section3 {
+
+    /* border: 1px solid; */
+    text-align: center;
+    border-radius: 20px;
+    background-color: bisque;
+    padding: 15px;
+}
+
+.section3 p{
+    color: rgb(55, 57, 58);
+    font-weight: 500;
+}
+
+.section4 {
+
+    /* border: 1px solid; */
+    text-align: center;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: rgb(209, 185, 231);
+}
+
+.section5 {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid; */
+    text-align: center;
+
+    justify-content: center;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: rgb(157, 214, 244);
+}
+
+.section6 {
+    /* border: 1px solid; */
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(245, 165, 170);
+    padding: 15px;
+}
+
+img {
+    vertical-align: middle;
+    height: 150px;
+    border-radius: 50%;
+
+}
+
+.personnalInfo {}
+
+.subject {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.hostel {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+th,
+td {
+    border: 2px solid;
+    /* border-collapse: collapse; */
+    border-color: rgb(80, 83, 85);
+    border-radius: 12px;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    gap: 50px;
+    width: 900px;
+    margin: auto;
+    justify-content: center;
+
+    /* border: 1px solid; */
+    padding: 50px;
+
+    
+
+
+}
+
+@media only screen and (max-width: 900px) {
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(1, 500px);
+        gap: 50px;
+        width: 700px;
+        margin: auto;
+        justify-content: center;
+
+        
+        padding: 50px;
+
+
+    }
+}
+
+button {
+
+    border-radius: 2rem;
+    font-size: 15px;
+    padding: 7px;
+    border: none;
+    width: 150px;
+    height: 40px;
+    color: aliceblue;
+    background-color: rgb(241, 151, 173);
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    border-radius: 2rem;
+    font-size: 15px;
+    padding: 7px;
+    border: none;
+    width: 190px;
+    height: 40px;
+    color: aliceblue;
+    background-color: rgb(216, 136, 204);
+    font-weight: bold;
+    cursor: pointer;
+    
+
+}
+
+.section1:hover, .section2:hover, .section3:hover, .section4:hover, .section5:hover, .section6:hover
+{
+
+    box-shadow:6px 6px 5px rgb(119, 135, 140);
+    transition: 0.4s;
+
+}
+/* tr:nth-child(odd)
+{
+    background-color: rgb(237, 250, 202);
+} */
